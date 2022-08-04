@@ -1,0 +1,47 @@
+/* .list{
+    text-decoration: none;
+    float: left;
+}
+.list2{
+    float: left;
+
+} */
+/* div{
+    background-color: rgb(74, 83, 83);
+/* } */
+ /* ul li{
+    display: inline;
+    margin-top: 0;
+    position: relative;
+    
+    
+     
+}
+ .list{
+    text-decoration: none;
+    float: left;
+    display: inline;
+}
+.list2{
+    float: right;
+    display: inline;
+
+}   */
+
+/* ul li{
+    position: fixed;
+    display: inline-block;
+    
+}
+.list{
+    float: left;
+    display: inline;
+    float: inline-start;
+    border-right: 50px;
+}
+ul li .list1{
+    float: right;
+    display: inline;
+    float: inline-end;
+} */
+
