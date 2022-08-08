@@ -1,11 +1,22 @@
 import React from "react";
+import './Home.css';
 
 
 const Home =()=>{
 return(
 
-   <div style={{color:"Lime",textAlign:"center"}}>
-    <p>this is home component</p>
+
+   
+   <div className="background">
+         
+      <p className="font">
+
+      <h3 style={{color:"aqua"}}>This is my Home component</h3>
+         
+         
+         
+         In this project I am using React Basics</p>
+         
 
    </div> 
    )

@@ -29,28 +29,41 @@ function App() {
     // </div>
     <div className='container'>
       
-      <div style={{height:"50%", backgroundColor:"lime", textAlign:"center", }}> <NavBar/></div>
+
+<div style={{height:"50%", backgroundColor:"lime", textAlign:"center", }}> <NavBar/>    
+      
+      </div>
      
 
      <div >
      <Routes>
           <Route path="/myresume" element={<Resume/>}></Route>
-          <Route exact path="/" element={<Home/>}></Route>
+          <Route path="/Home" element={<Home/>}></Route>
+         
+          
           
           <Route path="*" element={<NotFound/>}></Route>
+          {/* <Route> exact path="/" element={<NavBar/>}</Route> */}
          
 
 
         </Routes> 
 
      </div>
+
+
+
+
+      </div>
+      
+      
        
 
       
         
 
       
-    </div>
+    
   );
 }
 
